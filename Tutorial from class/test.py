@@ -15,4 +15,6 @@ import PIL.Image as pilimage
 
 img = pilimage.open(io.BytesIO(base64.b64decode(imagebase64)))
 
-img.save("test.png")
+img.save("raja.png")
+
+
