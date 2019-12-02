@@ -1,15 +1,13 @@
-Keras Flask Mnist Data App (Handwritten Digits Recognizer)
+# Project Title
 
-Student Name: Raja Naseer Ahmed Khan (G00351263) 
- 
- 
-Contents: 
- 
-1. Project Emerging Tech 2019 Folder (contains project) (NOTE: Project has file name requirements.txt, use this to install dependencies using command line: pip install -r requirements.txt)  
- 
-2. Class Tutorial Folder (contains class video files) 3. Readme file (details how to run project) 4. Research file (with details of all links researched) 5. Mnist jupyter folder, contains notebook code of training and checking the mnist data. 
- 
- 
+Handwritten Digits Recognizer Flask,Keras,TensorFlow App
+
+## Getting Started
+
+These instructions will get you a copy of the project up and running on your local machine for development and testing purposes. See deployment for notes on how to deploy the project on a live system.
+
+### Prerequisites
+
 Very important Before you run any file: 
  
 . TensorFlow and SciPy version were not stable hence, old version is used. Please use following commands example in case dependencies conflict. Use uninstall and install for any of them. 
@@ -17,8 +15,15 @@ Very important Before you run any file:
 TensorFlow Details: . To uninstall TensorFlow:  pip uninstall TensorFlow  To install old version use: pip install TensorFlow==1.13.1 
  
 SciPy Details: . To uninstall SciPy:  pip uninstall SciPy  To install old version use: pip install SciPy==1.2 
- 
- 
+```
+
+### Installing
+
+1. Project Emerging Tech 2019 Folder (contains project) (NOTE: Project has file name requirements.txt, use this to install dependencies using command line: pip install -r requirements.txt)  
+
+```
+## Running the tests
+
 How to Train Model MNIST: 
  
 FROM COMMAND PROMPT: run the file with command (python train.py) from directory \model. This will create the json and h5 files. ------------------------------------------------------------------------------------------------------------------------------------ FROM COMMAND JUPYTER NOTEBOOK: Go to the project folder Project Emerging Tech 2019 and type command jupyter notebook. This will start the jupyter notebook in browser. Click on model directory and click on train.ipynb file. In the cell press shift Enter to run the file. 
